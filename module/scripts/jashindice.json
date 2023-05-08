@@ -24,7 +24,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
       "17",
       "18",
       "19",
-      "modules/faces/jashindice.webp"
+      "module/faces/jashindice.webp"
     ],
     system:"JashinDice"
   });
