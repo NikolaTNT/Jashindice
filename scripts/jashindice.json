@@ -1,5 +1,12 @@
 Hooks.on('diceSoNiceReady', (dice3d) => {
   
+  dice3d.addTexture("Nebula", {
+        name: "Nebula",
+        composite: "source-over",
+        source: "images/nebula.png",
+        bump:"images/nebula.png"
+    });
+  
     dice3d.addSystem({id:"Dragon20",name:"⁂ Dragon20 (d20, 20 best)"},false);
 
   dice3d.addDicePreset({
